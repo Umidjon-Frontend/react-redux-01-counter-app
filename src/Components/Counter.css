@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #219ebc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.counter{
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.counter__heading{
+  font-size: 4rem;
+}
+.counter__title{
+  font-size: 6rem;
+  margin: 1rem 0;
+}
+.counter_btn{
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 10px;
+}
+.counter_btn:focus{
+  outline: none;
+}
+.inc{
+  background-color: #2a9d8f;
+}
+.dec{
+  background-color: #e63946;
+}
+.res{
+  background-color: #333;
+}
